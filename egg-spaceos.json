@@ -6,14 +6,14 @@
     },
     "exported_at": "2024-10-05T18:27:14+02:00",
     "name": "SpaceOS Cloud",
-    "author": "hetzner@is-a.space",
+    "author": "hi@wigglycornet.com",
     "description": "SpaceOS, an ultra-lightweight, flexible, and highly customizable operating system built entirely in Python. github.com/thestupidadmin/spaceos",
     "features": null,
     "docker_images": {
         "quay.io\/yajtpg\/pterodactyl-images:python-3.11": "quay.io\/yajtpg\/pterodactyl-images:python-3.11"
     },
     "file_denylist": [],
-    "startup": "# Made by discord.gg\/hetzner\r\n\/start.sh",
+    "startup": "# Made by zyloxhost.com\r\n\/start.sh",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"\",\r\n    \"userInteraction\": []\r\n}",

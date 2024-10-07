@@ -9,13 +9,13 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-print("Starting SpaceOS Init (Cloud-Python-discord.gg/hetzner)")
+print("Starting PyOS Init (Cloud-Python-zyloxhost.com)")
 total_steps = 100
 for i in range(total_steps + 1):
     time.sleep(0.0005)
     print(f"\r[{'#' * (i // 2)}{' ' * (50 - i // 2)}] {i}%", end="")
     sys.stdout.flush()
-print("\nSpaceOS Init Complete!")
+print("\nPyOS Init Complete!")
 
 base_directory = os.path.dirname(os.path.abspath(__file__))
 hostname = os.uname()[1]
@@ -227,13 +227,13 @@ def execute_command(command):
             print("Command not found.")
 
 def touch(filename):
-    print("Due to how SpaceOS is created. we as the developrs are unable to make write perms due to how the vfs is made. Please make a pr and add code. we would love it <3")
+    print("Due to how PyOS is created. we as the developrs are unable to make write perms due to how the vfs is made. Please make a pr and add code. we would love it <3")
 
 def pwd():
     print(current_home)
 
 def mkdir(dirname):
-    print("Due to how SpaceOS is created. we as the developrs are unable to make write perms due to how the vfs is made. Please make a pr and add code. we would love it <3")
+    print("Due to how PyOS is created. we as the developrs are unable to make write perms due to how the vfs is made. Please make a pr and add code. we would love it <3")
 
 def help_command():
     commands = {
@@ -255,7 +255,7 @@ initialize_file_system()
 
 if login():
     while True:
-        command = input(f"{current_user}@spaceOS ~ $ ")
+        command = input(f"{current_user}@PyOS ~ $ ")
         execute_command(command)
 else:
     print("Failed to login.")
